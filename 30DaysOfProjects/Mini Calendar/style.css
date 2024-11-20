@@ -38,6 +38,8 @@ body{
 .day-time{
     font-family: 'Times New Roman', Times, serif;
     color: crimson;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 .year{
     margin: 20px 0;
