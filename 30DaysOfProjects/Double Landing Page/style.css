@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    backdrop-filter: brightness(.5);
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+
+}
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+}
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: rgb(28, 151, 110);
+    background-image: url(https://istore.co.bw/cdn/shop/files/iphone-13_1_1200x.png?v=1698131930);
+    background-size: cover;
+}
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: rgb(2, 128, 128);
+    background-image:url(https://www.pc-tablet.co.in/wp-content/uploads/2024/02/samsung-galaxy-s24-release-date-price-ultra-features-and-mor_2bxp.jpg) ;
+    background-size: cover;
+}
