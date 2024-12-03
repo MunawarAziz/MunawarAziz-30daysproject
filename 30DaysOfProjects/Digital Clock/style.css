@@ -6,16 +6,18 @@ body{
     font-family: serif;
     height: 100vh;
     justify-content: center;
-    background: url(https://images.unsplash.com/photo-1508349937151-22b68b72d5b1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background: url(https://img.freepik.com/premium-photo/background-multicolored-paint-water-generative-ai_170984-5048.jpg?semt=ais_hybrid) ;
     background-size: cover;
+    overflow: hidden;
 }
 h2{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 17px;
     text-align: center;
-     color: rgb(126, 21, 11);
+    color: rgb(223, 226, 39);
     border-radius: 5px;
+    font-family: cursive;
 }
 .clock{
     display: flex;
